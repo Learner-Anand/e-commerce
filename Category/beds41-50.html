@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Verma Furniture Works</title>
+        <link rel="stylesheet" href="../Css/style.css">
+        <link rel="stylesheet" href="../Css/responsive.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </head>
+    <body>
+        <div id="preloader"></div>
+        <header class="header">
+            <div class="navbar nav-background h-nav-resp">
+                <div class="leftnav">
+                    <div class="logo">
+                        <img src="../image/logo.PNG" alt="Logo">
+                    </div>
+                    <div class="search">
+                        <input class="searchbox" type="text" placeholder="Search Product">
+                        <button type="button">Search</button>
+                    </div>
+                </div>
+                <div class="rightnav" id="rightnav">
+                    <li><a class="home" href="../index.html">Home</a></li>
+                    <li><a class="workers" href="../Workers/worker.html">Workers</a></li>
+                    <li><a class="developer" href="../iPortfolio/index.html">Developer</a></li>
+                    <li><a class="contact" href="../index.html#contact_us">Contact Us</a></li>
+                    <li><a class="login" href="../index.html#sign-in">Feedback</a></li>
+                </div>
+                <div class="burger" id="burger">
+                    <i onclick="showslider()" class="fa-solid fa-bars" style="color: #4287ff;"></i>
+                </div>
+                <div class="cross" id="cross">
+                    <div class="cross-sign">
+                        <i onclick="hideslider()" class="fa-solid fa-xmark" style="color: #2764ce;"></i>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="main">
+                <section class="hero" id="hero">
+                    <img src="../image/hero.png">
+                </section>
+            
+                <section class="category">
+                    <h3>Welcome to Beds Section</h3>
+            
+                    <!-- Images Cards -->
+                    <div class="full-img" id="fullImgBox">
+                        <img src="../bg.webp" id="fullImg">
+                        <span onclick="closeFullImg()">
+                            <i class="fa-solid fa-xmark" style="color: #fff;"></i>
+                        </span>
+                        <h4>Verma Furniture Works</h4>
+                        <h5>Contact No. 8607202852</h5>
+                    </div>
+                    <div class="cat-section">
+                        
+                        <div class="box card">
+                            <div class="cat-details">
+                                <h2>Bed 41</h2>
+                            </div>
+                            <img src="https://drive.google.com/uc?id=1ZstfXg2wQencg9ioJCfJZKQw0oVJIr4Y&usp" onclick="openFullImg(this.src)">
+                            <h2>
+                                 ___________
+                            </h2>
+                        </div>
+                        <div class="box card">
+                            <div class="cat-details">
+                                <h2>Bed 42</h2>
+                            </div>
+                            <img src="https://drive.google.com/uc?id=1RZRULOZEvhdxdXjbbQYUq4fx2pOy_aYL&usp" onclick="openFullImg(this.src)">
+                            <h2>
+                                 ___________
+                            </h2>
+                        </div>
+                        <div class="box card">
+                            <div class="cat-details">
+                                <h2>Bed 43</h2>
+                            </div>
+                            <img src="https://drive.google.com/uc?id=1BlQvX5p_03NigmVSg7RIsSdeRYDeIsLb&usp" onclick="openFullImg(this.src)">
+                            <h2>
+                                 ___________
+                            </h2>
+                        </div>
+                        <div class="box card">
+                            <div class="cat-details">
+                                <h2>Bed 44</h2>
+                            </div>
+                            <img src="https://drive.google.com/uc?id=1DcFI-32PUYU9wjrJB1iLedLAoCWI6foS&usp" onclick="openFullImg(this.src)">
+                            <h2>
+                                 ___________
+                            </h2>
+                        </div>
+                        <div class="box card">
+                            <div class="cat-details">
+                                <h2>Bed 45</h2>
+                            </div>
+                            <img src="https://drive.google.com/uc?id=13Y_2p5mEMeh0zhfDsYe5ELkHjWBhc7N6&usp" onclick="openFullImg(this.src)">
+                            <h2>
+                                 ___________
+                            </h2>
+                        </div>
+                        <div class="box card">
+                            <div class="cat-details">
+                                <h2>Bed 46</h2>
+                            </div>
+                            <img src="https://drive.google.com/uc?id=1puakylbPON7NcHHXQgif5LH7ISqFwjwN&usp" onclick="openFullImg(this.src)">
+                            <h2>
+                                 ___________
+                            </h2>
+                        </div>
+                        <div class="box card">
+                            <div class="cat-details">
+                                <h2>Bed 47</h2>
+                            </div>
+                            <img src="https://drive.google.com/uc?id=1hupMEZHucyMX7yaV4X36VWiSzDXEena1&usp" onclick="openFullImg(this.src)">
+                            <h2>
+                                 ___________
+                            </h2>
+                        </div>
+                        <div class="box card">
+                            <div class="cat-details">
+                                <h2>Bed 48</h2>
+                            </div>
+                            <img src="https://drive.google.com/uc?id=1DfR0WdI4MPH093EQXinZhv1NQP7b6ZFg&usp" onclick="openFullImg(this.src)">
+                            <h2>
+                                 ___________
+                            </h2>
+                        </div>
+                        <div class="box card">
+                            <div class="cat-details">
+                                <h2>Bed 49</h2>
+                            </div>
+                            <img src="https://drive.google.com/uc?id=1wdbIXvWhpdQgxCYytwL8K0S4OkLr8x7z&usp" onclick="openFullImg(this.src)">
+                            <h2>
+                                 ___________
+                            </h2>
+                        </div>
+                        <div class="box card">
+                            <div class="cat-details">
+                                <h2>Bed 50</h2>
+                            </div>
+                            <img src="https://drive.google.com/uc?id=134iOokZxqlEq79lX_xXUA0zAC1-EdZfY&usp" onclick="openFullImg(this.src)">
+                            <h2>
+                                 ___________
+                            </h2>
+                        </div>
+                        <div class="box card">
+                            <div class="cat-details">
+                                <h2>Bed 51</h2>
+                            </div>
+                            <img src="https://drive.google.com/uc?id=" onclick="openFullImg(this.src)">
+                            <h2>
+                                 ___________
+                            </h2>
+                        </div>
+                        <div class="box card">
+                            <div class="cat-details">
+                                <h2>Bed 52</h2>
+                            </div>
+                            <img src="https://drive.google.com/uc?id=" onclick="openFullImg(this.src)">
+                            <h2>
+                                 ___________
+                            </h2>
+                        </div>
+                        <div class="box card">
+                            <div class="cat-details">
+                                <h2>Bed 53</h2>
+                            </div>
+                            <img src="https://drive.google.com/uc?id=" onclick="openFullImg(this.src)">
+                            <h2>
+                                 ___________
+                            </h2>
+                        </div>
+                        <div class="box card">
+                            <div class="cat-details">
+                                <h2>Bed 54</h2>
+                            </div>
+                            <img src="https://drive.google.com/uc?id=" onclick="openFullImg(this.src)">
+                            <h2>
+                                 ___________
+                            </h2>
+                        </div>
+                        <div class="box card">
+                            <div class="cat-details">
+                                <h2>Bed 56</h2>
+                            </div>
+                            <img src="https://drive.google.com/uc?id=" onclick="openFullImg(this.src)">
+                            <h2>
+                                 ___________
+                            </h2>
+                        </div>
+                        <div class="box card">
+                            <div class="cat-details">
+                                <h2>Bed 57</h2>
+                            </div>
+                            <img src="https://drive.google.com/uc?id=" onclick="openFullImg(this.src)">
+                            <h2>
+                                 ___________
+                            </h2>
+                        </div>
+                        <div class="box card">
+                            <div class="cat-details">
+                                <h2>Bed 58</h2>
+                            </div>
+                            <img src="https://drive.google.com/uc?id=" onclick="openFullImg(this.src)">
+                            <h2>
+                                 ___________
+                            </h2>
+                        </div>
+                        <div class="box card">
+                            <div class="cat-details">
+                                <h2>Bed 59</h2>
+                            </div>
+                            <img src="https://drive.google.com/uc?id=" onclick="openFullImg(this.src)">
+                            <h2>
+                                 ___________
+                            </h2>
+                        </div>
+                        <div class="box card">
+                            <div class="cat-details">
+                                <h2>Bed 60</h2>
+                            </div>
+                            <img src="https://drive.google.com/uc?id=" onclick="openFullImg(this.src)">
+                            <h2>
+                                 ___________
+                            </h2>
+                        </div>
+                        <div class="box card">
+                            <div class="cat-details">
+                                <h2>Bed 61</h2>
+                            </div>
+                            <img src="https://drive.google.com/uc?id=" onclick="openFullImg(this.src)">
+                            <h2>
+                                 ___________
+                            </h2>
+                        </div>
+                        <div class="box card">
+                            <div class="cat-details">
+                                <h2>Bed 62</h2>
+                            </div>
+                            <img src="https://drive.google.com/uc?id=" onclick="openFullImg(this.src)">
+                            <h2>
+                                 ___________
+                            </h2>
+                        </div>
+                        <div class="box card">
+                            <div class="cat-details">
+                                <h2>Bed 63</h2>
+                            </div>
+                            <img src="https://drive.google.com/uc?id=" onclick="openFullImg(this.src)">
+                            <h2>
+                                 ___________
+                            </h2>
+                        </div>
+                        <div class="box card">
+                            <div class="cat-details">
+                                <h2>Bed 64</h2>
+                            </div>
+                            <img src="https://drive.google.com/uc?id=" onclick="openFullImg(this.src)">
+                            <h2>
+                                 ___________
+                            </h2>
+                        </div>
+                        <div class="box card">
+                            <div class="cat-details">
+                                <h2>Bed 65</h2>
+                            </div>
+                            <img src="https://drive.google.com/uc?id=" onclick="openFullImg(this.src)">
+                            <h2>
+                                 ___________
+                            </h2>
+                        </div>
+                        <div class="box card">
+                            <div class="cat-details">
+                                <h2>Bed 66</h2>
+                            </div>
+                            <img src="https://drive.google.com/uc?id=" onclick="openFullImg(this.src)">
+                            <h2>
+                                 ___________
+                            </h2>
+                        </div>
+                        <div class="box card">
+                            <div class="cat-details">
+                                <h2>Bed 67</h2>
+                            </div>
+                            <img src="https://drive.google.com/uc?id=" onclick="openFullImg(this.src)">
+                            <h2>
+                                 ___________
+                            </h2>
+                        </div>
+                        <div class="box card">
+                            <div class="cat-details">
+                                <h2>Bed 68</h2>
+                            </div>
+                            <img src="https://drive.google.com/uc?id=" onclick="openFullImg(this.src)">
+                            <h2>
+                                 ___________
+                            </h2>
+                        </div>
+                        <div class="box card">
+                            <div class="cat-details">
+                                <h2>Bed 69</h2>
+                            </div>
+                            <img src="https://drive.google.com/uc?id=" onclick="openFullImg(this.src)">
+                            <h2>
+                                 ___________
+                            </h2>
+                        </div>
+                        <div class="box card">
+                            <div class="cat-details">
+                                <h2>Bed 70</h2>
+                            </div>
+                            <img src="https://drive.google.com/uc?id=" onclick="openFullImg(this.src)">
+                            <h2>
+                                 ___________
+                            </h2>
+                        </div>
+                        <div class="box card">
+                            <div class="cat-details">
+                                <h2>Bed 71</h2>
+                            </div>
+                            <img src="https://drive.google.com/uc?id=" onclick="openFullImg(this.src)">
+                            <h2>
+                                 ___________
+                            </h2>
+                        </div>
+                        <div class="box card">
+                            <div class="cat-details">
+                                <h2>Bed 72</h2>
+                            </div>
+                            <img src="https://drive.google.com/uc?id=" onclick="openFullImg(this.src)">
+                            <h2>
+                                 ___________
+                            </h2>
+                        </div>
+                        <div class="box card">
+                            <div class="cat-details">
+                                <h2>Bed 73</h2>
+                            </div>
+                            <img src="https://drive.google.com/uc?id=" onclick="openFullImg(this.src)">
+                            <h2>
+                                 ___________
+                            </h2>
+                        </div>
+                        <div class="box card">
+                            <div class="cat-details">
+                                <h2>Bed 74</h2>
+                            </div>
+                            <img src="https://drive.google.com/uc?id=" onclick="openFullImg(this.src)">
+                            <h2>
+                                 ___________
+                            </h2>
+                        </div>
+                        <div class="box card">
+                            <div class="cat-details">
+                                <h2>Bed 75</h2>
+                            </div>
+                            <img src="https://drive.google.com/uc?id=" onclick="openFullImg(this.src)">
+                            <h2>
+                                 ___________
+                            </h2>
+                        </div>
+                        <div class="box card">
+                            <div class="cat-details">
+                                <h2>Bed 76</h2>
+                            </div>
+                            <img src="https://drive.google.com/uc?id=" onclick="openFullImg(this.src)">
+                            <h2>
+                                 ___________
+                            </h2>
+                        </div>
+                        <div class="box card">
+                            <div class="cat-details">
+                                <h2>Bed 77</h2>
+                            </div>
+                            <img src="https://drive.google.com/uc?id=" onclick="openFullImg(this.src)">
+                            <h2>
+                                 ___________
+                            </h2>
+                        </div>
+                        <div class="box card">
+                            <div class="cat-details">
+                                <h2>Bed 78</h2>
+                            </div>
+                            <img src="https://drive.google.com/uc?id=" onclick="openFullImg(this.src)">
+                            <h2>
+                                 ___________
+                            </h2>
+                        </div>
+                        <div class="box card">
+                            <div class="cat-details">
+                                <h2>Bed 79</h2>
+                            </div>
+                            <img src="https://drive.google.com/uc?id=" onclick="openFullImg(this.src)">
+                            <h2>
+                                 ___________
+                            </h2>
+                        </div>
+                        <div class="box card">
+                            <div class="cat-details">
+                                <h2>Bed 80</h2>
+                            </div>
+                            <img src="https://drive.google.com/uc?id=" onclick="openFullImg(this.src)">
+                            <h2>
+                                 ___________
+                            </h2>
+                        </div>
+                        <div class="box card">
+                            <div class="cat-details">
+                                <h2>Bed 81</h2>
+                            </div>
+                            <img src="https://drive.google.com/uc?id=" onclick="openFullImg(this.src)">
+                            <h2>
+                                 ___________
+                            </h2>
+                        </div>
+                        <div class="box card">
+                            <div class="cat-details">
+                                <h2>Bed 82</h2>
+                            </div>
+                            <img src="https://drive.google.com/uc?id=" onclick="openFullImg(this.src)">
+                            <h2>
+                                 ___________
+                            </h2>
+                        </div>
+                        <div class="box card">
+                            <div class="cat-details">
+                                <h2>Bed 83</h2>
+                            </div>
+                            <img src="https://drive.google.com/uc?id=" onclick="openFullImg(this.src)">
+                            <h2>
+                                 ___________
+                            </h2>
+                        </div>
+                        <div class="box card">
+                            <div class="cat-details">
+                                <h2>Bed 84</h2>
+                            </div>
+                            <img src="https://drive.google.com/uc?id=" onclick="openFullImg(this.src)">
+                            <h2>
+                                 ___________
+                            </h2>
+                        </div>
+                        <div class="box card">
+                            <div class="cat-details">
+                                <h2>Bed 85</h2>
+                            </div>
+                            <img src="https://drive.google.com/uc?id=" onclick="openFullImg(this.src)">
+                            <h2>
+                                 ___________
+                            </h2>
+                        </div>
+                        <div class="box card">
+                            <div class="cat-details">
+                                <h2>Bed 86</h2>
+                            </div>
+                            <img src="https://drive.google.com/uc?id=" onclick="openFullImg(this.src)">
+                            <h2>
+                                 ___________
+                            </h2>
+                        </div>
+                        <div class="box card">
+                            <div class="cat-details">
+                                <h2>Bed 87</h2>
+                            </div>
+                            <img src="https://drive.google.com/uc?id=" onclick="openFullImg(this.src)">
+                            <h2>
+                                 ___________
+                            </h2>
+                        </div>
+                        <div class="box card">
+                            <div class="cat-details">
+                                <h2>Bed 88</h2>
+                            </div>
+                            <img src="https://drive.google.com/uc?id=" onclick="openFullImg(this.src)">
+                            <h2>
+                                 ___________
+                            </h2>
+                        </div>
+                        <div class="box card">
+                            <div class="cat-details">
+                                <h2>Bed 89</h2>
+                            </div>
+                            <img src="https://drive.google.com/uc?id=" onclick="openFullImg(this.src)">
+                            <h2>
+                                 ___________
+                            </h2>
+                        </div>
+                        <div class="box card">
+                            <div class="cat-details">
+                                <h2>Bed 90</h2>
+                            </div>
+                            <img src="https://drive.google.com/uc?id=" onclick="openFullImg(this.src)">
+                            <h2>
+                                 ___________
+                            </h2>
+                        </div>
+                        <div class="box card">
+                            <div class="cat-details">
+                                <h2>Bed 91</h2>
+                            </div>
+                            <img src="https://drive.google.com/uc?id=" onclick="openFullImg(this.src)">
+                            <h2>
+                                 ___________
+                            </h2>
+                        </div>
+                        <div class="box card">
+                            <div class="cat-details">
+                                <h2>Bed 92</h2>
+                            </div>
+                            <img src="https://drive.google.com/uc?id=" onclick="openFullImg(this.src)">
+                            <h2>
+                                 ___________
+                            </h2>
+                        </div>
+                        <div class="box card">
+                            <div class="cat-details">
+                                <h2>Bed 93</h2>
+                            </div>
+                            <img src="https://drive.google.com/uc?id=" onclick="openFullImg(this.src)">
+                            <h2>
+                                 ___________
+                            </h2>
+                        </div>
+                        <div class="box card">
+                            <div class="cat-details">
+                                <h2>Bed 94</h2>
+                            </div>
+                            <img src="https://drive.google.com/uc?id=" onclick="openFullImg(this.src)">
+                            <h2>
+                                 ___________
+                            </h2>
+                        </div>
+                        <div class="box card">
+                            <div class="cat-details">
+                                <h2>Bed 95</h2>
+                            </div>
+                            <img src="https://drive.google.com/uc?id=" onclick="openFullImg(this.src)">
+                            <h2>
+                                 ___________
+                            </h2>
+                        </div>
+                        <div class="box card">
+                            <div class="cat-details">
+                                <h2>Bed 96</h2>
+                            </div>
+                            <img src="https://drive.google.com/uc?id=" onclick="openFullImg(this.src)">
+                            <h2>
+                                 ___________
+                            </h2>
+                        </div>
+                        <div class="box card">
+                            <div class="cat-details">
+                                <h2>Bed 97</h2>
+                            </div>
+                            <img src="https://drive.google.com/uc?id=" onclick="openFullImg(this.src)">
+                            <h2>
+                                 ___________
+                            </h2>
+                        </div>
+                        <div class="box card">
+                            <div class="cat-details">
+                                <h2>Bed 98</h2>
+                            </div>
+                            <img src="https://drive.google.com/uc?id=" onclick="openFullImg(this.src)">
+                            <h2>
+                                 ___________
+                            </h2>
+                        </div>
+                        <div class="box card">
+                            <div class="cat-details">
+                                <h2>Bed 99</h2>
+                            </div>
+                            <img src="https://drive.google.com/uc?id=" onclick="openFullImg(this.src)">
+                            <h2>
+                                 ___________
+                            </h2>
+                        </div>
+                        <div class="box card">
+                            <div class="cat-details">
+                                <h2>Bed 100</h2>
+                            </div>
+                            <img src="https://drive.google.com/uc?id=" onclick="openFullImg(this.src)">
+                            <h2>
+                                 ___________
+                            </h2>
+                        </div>
+                        <div class="box card">
+                            <div class="cat-details">
+                                <h2>Bed 101</h2>
+                            </div>
+                            <img src="https://drive.google.com/uc?id=" onclick="openFullImg(this.src)">
+                            <h2>
+                                 ___________
+                            </h2>
+                        </div>
+                        <div class="box card">
+                            <div class="cat-details">
+                                <h2>Bed 102</h2>
+                            </div>
+                            <img src="https://drive.google.com/uc?id=" onclick="openFullImg(this.src)">
+                            <h2>
+                                 ___________
+                            </h2>
+                        </div>
+                        <div class="box card">
+                            <div class="cat-details">
+                                <h2>Bed 103</h2>
+                            </div>
+                            <img src="https://drive.google.com/uc?id=" onclick="openFullImg(this.src)">
+                            <h2>
+                                 ___________
+                            </h2>
+                        </div>
+                        <div class="box card">
+                            <div class="cat-details">
+                                <h2>Bed 104</h2>
+                            </div>
+                            <img src="https://drive.google.com/uc?id=" onclick="openFullImg(this.src)">
+                            <h2>
+                                 ___________
+                            </h2>
+                        </div>
+                        <div class="box card">
+                            <div class="cat-details">
+                                <h2>Bed 105</h2>
+                            </div>
+                            <img src="https://drive.google.com/uc?id=" onclick="openFullImg(this.src)">
+                            <h2>
+                                 ___________
+                            </h2>
+                        </div>
+                        <div class="box card">
+                            <div class="cat-details">
+                                <h2>Bed 106</h2>
+                            </div>
+                            <img src="https://drive.google.com/uc?id=" onclick="openFullImg(this.src)">
+                            <h2>
+                                 ___________
+                            </h2>
+                        </div>
+                        <div class="box card">
+                            <div class="cat-details">
+                                <h2>Bed 107</h2>
+                            </div>
+                            <img src="https://drive.google.com/uc?id=" onclick="openFullImg(this.src)">
+                            <h2>
+                                 ___________
+                            </h2>
+                        </div>
+                        <div class="box card">
+                            <div class="cat-details">
+                                <h2>Bed 108</h2>
+                            </div>
+                            <img src="https://drive.google.com/uc?id=" onclick="openFullImg(this.src)">
+                            <h2>
+                                 ___________
+                            </h2>
+                        </div>
+                        <div class="box card">
+                            <div class="cat-details">
+                                <h2>Bed 109</h2>
+                            </div>
+                            <img src="https://drive.google.com/uc?id=" onclick="openFullImg(this.src)">
+                            <h2>
+                                 ___________
+                            </h2>
+                        </div>
+                        <div class="box card">
+                            <div class="cat-details">
+                                <h2>Bed 110</h2>
+                            </div>
+                            <img src="https://drive.google.com/uc?id=" onclick="openFullImg(this.src)">
+                            <h2>
+                                 ___________
+                            </h2>
+                        </div>
+                        <div class="box card">
+                            <div class="cat-details">
+                                <h2>Bed 111</h2>
+                            </div>
+                            <img src="https://drive.google.com/uc?id=" onclick="openFullImg(this.src)">
+                            <h2>
+                                 ___________
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="page-changer">
+                <center>
+                <div>
+                    <a class="previous" href="beds31-40.html">&laquo;Previous</a>
+                </div>
+                </center>
+            </section>
+            </main>
+            <footer class="footer">
+                <div class="waves">
+                    <div class="wave" id="wave1"></div>
+                    <div class="wave" id="wave2"></div>
+                    <div class="wave" id="wave3"></div>
+                    <div class="wave" id="wave4"></div>
+                </div>
+                <ul class="social_icon">
+                    <li ><a href="facebook.com"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                    <li><a href="Instagram.com"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                    <li><a href="Youtube.com"></a><ion-icon name="logo-youtube"></ion-icon></li>
+                    <li><a href="goooglepay.com"><ion-icon name="qr-code-outline"></ion-icon></a></li>
+                </ul>
+                <ul class="menu">
+                    <li><a class="home" href="../index.html">Home</a></li>
+                    <li><a class="workers" href="../Workers/worker.html">Workers</a></li>
+                    <li><a class="developer" href="../iPortfolio/index.html">Developer</a></li>
+                    <li><a class="contact" href="../index.html#contact_us">Contact Us</a></li>
+                    <li><a class="login" href="../index.html#sign-in">Feedback</a></li>
+                </ul>
+                <div class="count_text">
+                    <p>Total Visitors</p>
+                </div>
+                <div class="counter">
+                    <!-- hitwebcounter Code START -->
+                    <!-- hitwebcounter Code START -->
+                
+                <a href="https://www.hitwebcounter.com" target="_blank">
+                    <img src="https://hitwebcounter.com/counter/counter.php?page=9809983&style=0019&nbdigits=5&type=ip&initCount=0" title="Counter Widget" Alt="Visit counter For Websites"   border="0" /></a>            
+                </div>
+                <p class="copyright">
+                    Copyright &copy; 2023 www.VermaFurnitureWorks.com - All rights reserved
+                </p>
+            </footer>  
+            <script>
+                var rightnav= document.getElementById("rightnav");
+                var fullImg= document.getElementById("burger");
+        
+                function showslider(){
+                    rightnav.style.display="flex";
+                    burger.style.display="none";
+                    cross.style.display="flex";
+                    
+                 }
+        
+                function hideslider(){
+                    rightnav.style.display="none";
+                    cross.style.display="none";
+                    burger.style.display="flex";
+                }
+            </script>
+    <script src="../Java_script/select_option.js"></script>
+    <script src="../Java_script/preloader.js"></script>
+    <script>
+        var fullImgBox= document.getElementById("fullImgBox");
+        var fullImg= document.getElementById("fullImg");
+
+        function openFullImg(pic){
+            fullImgBox.style.display="flex";
+            fullImg.src=pic;
+         }
+
+        function closeFullImg(){
+            fullImgBox.style.display="none";
+        }
+    </script> 
+                                                                              
+    </body>
+</html>
