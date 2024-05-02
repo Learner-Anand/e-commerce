@@ -1,4 +1,4 @@
-This is a Design of E-connerce website
+This is a Design of E-commerce website
 
 
 Live link of website is here
